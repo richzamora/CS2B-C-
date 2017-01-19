@@ -1,0 +1,26 @@
+#include "stdafx.h" //precompiled header
+#include <string> //included for string handling
+#include "iostream" //included for input output handling
+
+using namespace std;
+
+class MovieTicketMaster
+{
+private:
+   string Name;
+   string Location;
+   // I need to create an array of Movie objects so I will be using pointers //1.19.17
+public: 
+   MovieTicketMaster()
+   {
+      cout << "No-OP default constructor" << endl; // This is a default constructor that is NO-OP for the rest of the program
+   }
+
+};
+
+int main()
+{
+   cout << "Hello World!\n";
+    return 0;
+}
+
