@@ -10,6 +10,9 @@ private:
    string Name;
    string Location;
    // I need to create an array of Movie objects so I will be using pointers //1.19.17
+   static const string movie_names[array_size]; // this is the array for Movie which contains movie names.
+   static const int theater_seats[numberofseats];
+   static const double ticket_price[priceofmovies];
 public: 
    MovieTicketMaster()
    {
